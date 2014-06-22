@@ -101,3 +101,5 @@ test_train_final_v3 <- dcast(data=test_train_final_v3, Activity + Subject ~ vari
 
 write.table(x=test_train_final_v3, file="output.txt", sep=",")
 
+# Read the output file
+# file_name <- read.table(file="output.txt", sep=",")

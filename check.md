@@ -1,9 +1,9 @@
 CodeBook
 ========================================================
 
-Activity    1
+####Activity  
 
-factor
+"factor"
 
     WALKING:              Observation made when the subject is walking
 

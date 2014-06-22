@@ -96,3 +96,8 @@ test_train_final_v3 <- melt(data=test_train_mean_std_v2, id.vars=colnames(test_t
 test_train_final_v3 <- dcast(data=test_train_final_v3, Activity + Subject ~ variable, fun.aggregate=mean)
 
 # final tidy dataset - test_trial_final_v3
+
+# Writing to txt file
+
+write.table(x=test_train_final_v3, file="output.txt", sep=",")
+
